@@ -2,6 +2,7 @@
   "name": "smdmachinery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nikolic-marko.github.io/SMDMachinery/",
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
     "@emotion/core": "^10.0.28",
@@ -41,10 +42,13 @@
     "styled-components": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
