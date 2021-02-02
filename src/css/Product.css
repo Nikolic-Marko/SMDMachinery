@@ -1,0 +1,17 @@
+.product {
+    background-image: url('/Background.png');
+    background-attachment: fixed;
+
+}
+.product .headImg {
+    width: 81.8%;
+    margin-left: 9.1%;
+    margin-top: 4.7%;
+}
+    
+@media only screen and (max-width: 500px) {
+    .product .headImg{
+        margin: 10.2% 0 0 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,143 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 37px 60px;
+    position: fixed;
+    z-index: 3;
+    font-family: 'Montserrat';
+
+}
+
+ /* Style the header links */
+ .header a {
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.levi {
+    background-color: #ccccca;
+    grid-column: 1;
+    grid-row: 1/3;
+    height: 89%;
+    border-bottom: 3px solid #343a40;
+}
+
+.gornji {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #ccccca;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    display: flex;
+}
+
+.phone_mail {
+    width: 100%;
+    display: flex;
+}
+
+.donji {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.donji a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.smd_logo {
+    width: 82%;
+    height: 82%;
+    padding-top: 10%;
+}
+
+.gornji .phone_mail .phone_logo {
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 14px;
+    height: 45%;                                           
+    margin-top: 8px;
+}
+
+.gornji .phone_mail .mail_logo {
+    margin-left: 6%;
+    width: 20px;
+    height: 60%;
+    padding-right: 3px;
+    margin-top: 6px;
+}
+
+@media (max-width: 850px) {
+    .header {
+        background-color: #ccccca;
+        grid-template-columns: 25% 60% 15%;
+        grid-template-rows: 55.5px;
+        width: 100%;
+    }
+
+    .levi {
+        grid-column: 2;
+        grid-row: 1;
+        border-bottom: 0;
+    }
+
+    .gornji {
+        grid-column: 3;
+        grid-row: 1;
+        padding: 7px 0 0 0;
+    }
+
+    .donji {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .phone_mail {
+        display: none;
+    }
+
+    .smd_logo {
+        margin-left: 15%;
+        height: auto;
+        width: 100px;
+        margin-top: -35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        background-color: #ccccca;
+        grid-template-columns: 26% 60% 15%;
+    }
+
+    .smd_logo {
+        margin-left: 9%;
+        margin-top: -14px;    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        background-color: #ccccca;
+        grid-template-columns: 25% 60% 15%;
+    }
+
+    .smd_logo {
+        margin-left: 10%;
+        margin-top: -13px;
+    }
+}
+
+@media (max-width: 330px) {
+    .header {
+        background-color: #ccccca;
+        grid-template-columns: 25% 60% 10%;
+    }
+
+    .smd_logo {
+        margin-left: 6%;
+        margin-top: -10px;
+    }
+}

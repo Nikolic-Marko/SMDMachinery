@@ -1,0 +1,90 @@
+.homepage_middle {
+    width: 81.8%;
+    margin: 0 0 0 9.1%;
+    color: black;
+}
+
+.homepage_text {
+    margin: 3% 0 3% 0;
+}
+
+.row_cl1 {
+    margin: 0 0 0.7% -1.1%;
+    display: flex;
+}
+
+.row_cl2 {
+    margin: 0 0 4% -1.1%;
+    display: flex;
+}  
+
+.row_cl1 .one_company {
+    width: 49%;
+    margin-left: 1%;
+    display: block;
+}
+
+.row_cl2 .one_company {
+    width: 49%;
+    margin-left: 1%;
+    display: block;
+}
+
+.btn_companyList {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.img_companyList {
+    width: 100%;
+}
+
+/* .levi_tekst_ispod_companyList {
+    width: 100%;
+    background: rgb(120, 120, 120);
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.desni_tekst_ispod_companyList {
+    width: 100%;
+    background: linear-gradient(to right, rgb(200, 200, 200) 0%, rgb(95, 95, 95) 100%);
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    padding-top: 4px;
+    font-weight: bold;
+} */
+
+.one_company:hover {
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 850px) {
+    .row_cl1{
+        display: block;
+    }
+
+    .row_cl2{
+        display: block;
+    }
+
+    .row_cl1 .one_company {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .row_cl2 .one_company {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}

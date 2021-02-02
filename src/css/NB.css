@@ -1,0 +1,117 @@
+    .NB_css1 {
+        color: white;
+    }
+    
+    .NB_css1 ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        z-index: 1000;
+    }
+    
+    .NB_css1 ul li {
+        float: left;
+        width: 33.333%;
+        background-color: #343a40;
+        font-size: 20px;
+    }
+    
+    .NB_css1 ul li a{
+        text-align: center;
+        text-decoration: none;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+    .NB_css1 ul li a:visited{
+        color: white;
+    }
+
+    .NB_css1 ul li a:link{
+        color: white;
+    }
+    
+    .NB_css1 ul li a:hover{
+        background-color: #ccccca;
+        color: black;
+    }
+    
+    .NB_css1 ul li ul{
+        display: none;
+        width: 300%;
+        margin-left: -100%;
+    }
+
+    .NB_css1 ul li ul li a{
+        height: 170px;
+    }
+
+    .NB_css1 ul li ul li .machine_images{
+        width: 170px;
+        height: auto;
+    }
+    
+    .NB_css1 ul li:hover ul{
+        display: flex;
+    }
+    
+    .img_bars{
+        width: 50px;
+    }
+    .NB_response {
+        display: none;
+    }
+    @media (max-width: 850px){    
+        .NB_css1 {
+            display: none;
+        }
+        .NB_response {
+            border: none;
+            float: none;
+            position: absolute;
+            background: black;
+            width: 100%;
+            z-index: 1000;
+            height: auto;
+            display: none;
+            opacity: 0.92;
+            margin-top: 5px;
+        }
+        .nsk {
+            float: none;
+        }
+        #check {
+            display: none;
+        }
+        .NB_response ul {
+            display: block;
+            margin-left: 5%;
+            margin-top: 20px;
+        }
+        .NB_response ul li {
+            padding-bottom: 5%;
+        }
+        .NB_response ul li ul {
+            margin: 0 0 10px 15%;
+            text-align: left;
+        }
+    
+        .NB_response ul li ul li {
+            width: 300px;
+            padding-top: 23px;
+        }
+    
+        .NB_response ul li ul li a {
+            font-size: 18px;
+            border-left: 2px solid #ccccca;
+            padding-top: 5px;
+            border-radius: 20%;
+        }
+        .tri_crte {
+            display: block;
+        }
+    }

@@ -1,0 +1,51 @@
+.rightSidebar {
+    margin: 3% 0 0 8.25%;
+    width: 81.8%;
+    text-align: center;
+}
+
+.dugme {
+    width: 100%;
+    margin: 0 0 3% 1%;
+    height: 55px;
+    border: 1.5px solid #343a40;
+    background: none;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: #343a40;
+    transition: color 0.8s linear;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.dugme:hover {
+    color: white;
+}
+
+.dugme::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 101%;
+    height: 190%;
+    background: #343a40;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    z-index: -1;
+    transition: 0.8s;
+    transform-origin: 0 0;
+    transform: scaleY(0);
+}
+
+.dugme:hover::before {
+    transform: scaleY(1);
+}
+
+@media (max-width: 850px) {
+    #dugme {
+        margin-left: 8%;
+    }
+}

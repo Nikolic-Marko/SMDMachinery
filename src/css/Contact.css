@@ -1,0 +1,254 @@
+.contactSection{
+    position: relative;
+    margin-top: 100px;
+}
+.map {
+    padding-top: 5%;
+}
+
+.locationDiv{
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 24px;
+}
+
+.location{
+    font-size: 16px;
+}
+
+.phone_logo {
+    width: 14px;
+    height: 45%;                                           
+}
+.location-logo{
+    width: 20px;
+    height: 70%; 
+}
+
+.mail_logo {
+    width: 20px;
+    height: 60%;
+}
+
+.card{
+    width: 90%;
+    text-align: center;
+}
+
+.rowContact, .row-fluid {
+    margin-bottom: 30px;
+    
+}
+.span12 {
+    width: 90%;
+    min-height: 1px;
+    margin-left: 5%;    
+}
+form {
+    margin: 0 0 20px;
+}
+.span4 {
+    width: 26.7%;
+    float: left;
+    min-height: 1px;
+    margin-left: 5%;
+}
+.my-5{
+    overflow: hidden;
+}
+
+#mail {
+    margin: 2% 3% 3% 0%;
+}
+
+.contactForm input[type="text"], .contactForm input[type="email"] {
+    width: 100%;
+    min-height: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.email input[type="text"]{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    display: inline-block;
+    height: 37px;
+    padding: 4px 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+}
+.margintop10 {
+    margin-top: 10px;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+.span12{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    float: none;
+    margin-left: 0;
+    min-height: 1px;
+    
+}
+.location{
+    margin-left:6%;
+    font-size: 14px;
+}
+.rowContact {
+    margin-left: 0;
+    width: 100%;
+}
+.map{
+    height: 300px;
+}
+.span4{
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    min-height: 1px;
+    
+}
+.contactForm input[type="text"], .contactForm input[type="email"] {
+    width: 100%;
+    min-height: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.email input[type="text"]{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+}
+.contactSection{
+    padding: 0 20px 0 20px;
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+.dugmeMail {
+    width: 30%;
+    margin-top: 20px;
+    padding: 1%;
+    margin: 5px;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: black;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dugmeMail:hover {
+    color: #3498db;
+}
+
+.dugmeMail::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background: #3498db;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+    z-index: -1;
+    position: absolute;
+} 
+
+.dugmeMail:hover::before {
+    height: 0%;
+    
+}
+}
+
+.dugmeMail {
+    width: 30%;
+    margin: 50px 0 3% 1%;
+    height: 55px;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: 3498db;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dugmeMail:hover {
+    color: black;
+}
+
+.dugmeMail::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 180%;
+    background: #3498db;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+    z-index: -1;
+    position: absolute;
+} 
+
+.dugmeMail:hover::before {
+    height: 0%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .rightSidebar {
+        position: relative;
+        width: 30%;
+        margin: auto;
+        right: auto;
+        margin-bottom: 20px;
+    }
+    .location{
+        margin-left:4%;
+        font-size: 12px;
+    }
+}

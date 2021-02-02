@@ -1,0 +1,56 @@
+.LanguagePhone {
+  display: none;
+}
+
+.dugme_jezici {
+  float: right;
+  background-color: #ccccca;
+  position: absolute;
+  float: right;
+  right: 2%;
+  width: 45px;
+  border: 0;
+  float: right;
+  right: 2%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.dugme_jezici1 {
+  float: right;
+  background-color: #ccccca;
+  position: absolute;
+  float: right;
+  right: 1%;
+  width: 45px;
+  border: 0;
+  float: right;
+  position: absolute;
+  border-radius: 50%;
+}
+.dugme_jezici2 {
+  float: right;
+  background-color: #ccccca;
+  position: absolute;
+  float: right;
+  right: 4%;
+  width: 45px;
+  border: 0;
+  float: right;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.icon_jezici {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .LanguagePhone {
+    display: block;
+  }
+  .LanguagePC {
+    display: none;
+  }
+}
